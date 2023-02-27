@@ -3,12 +3,13 @@
 		<header>
 			<ul>
 				<li>
-					<NuxtLink to='index'>Main</NuxtLink>
+					<NuxtLink to='/'>Main</NuxtLink>
 				</li>
 				<li>
-					<NuxtLink to='about'>About</NuxtLink>
+					<NuxtLink to='/about'>About</NuxtLink>
 				</li>
 			</ul>
 		</header>
 		<NuxtPage />
-</NuxtLayout></template>
+	</NuxtLayout>
+</template>
