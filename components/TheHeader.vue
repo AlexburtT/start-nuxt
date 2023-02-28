@@ -1,6 +1,6 @@
 <template>
 	<header class="bg-slate-700">
-		<ul class="flex-auto">
+		<ul class="flex gap-4">
 			<li>
 				<NuxtLink to='/'>Main</NuxtLink>
 			</li>
