@@ -33,7 +33,8 @@ export default defineNuxtConfig({
 		// },
 	},
 	modules: [
-		'@nuxt/content'
+		'@nuxt/content',
+		'@pinia/nuxt'
 	],
 	css: ['~/assets/main.css'],
 	postcss: {
