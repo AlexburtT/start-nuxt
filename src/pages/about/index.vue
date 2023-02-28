@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1 class="text-3xl font-bold underline">About pages</h1>
+		<h1>About pages</h1>
 		<img src="/tv.png" alt="tv" />
 	</div>
 </template>

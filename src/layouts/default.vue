@@ -1,7 +1,7 @@
 <template>
 	<TheHeader />
-	<main class="bg-lime-500">
-		<p>Custom layouts</p>
+	<main>
+		<p>Default layouts</p>
 		<slot />
 	</main>
 </template>

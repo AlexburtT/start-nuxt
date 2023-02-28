@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	typescript: {
+		strict: true,
+		// typeCheck: true,
+	},
+	srcDir: "src/",
 	app: {
 		rootId: '__start',
 		rootTag: 'body',
@@ -13,15 +18,15 @@ export default defineNuxtConfig({
 				{ name: "viewport", content: "width=device-width, initial-scale=1" },
 				{
 					name: "description",
-					content: "Start progect on the Nuxt 3",
+					content: "Start project on the Nuxt 3",
 				},
 				{ name: "color-scheme", content: "light dark" },
 			],
 		},
-		// pageTransition: {
-		// 	name: "page",
-		// 	mode: "out-in",
-		// },
+		pageTransition: {
+			name: "page",
+			mode: "out-in",
+		},
 		// layoutTransition: {
 		// 	name: "layout",
 		// 	mode: "out-in",
@@ -30,8 +35,8 @@ export default defineNuxtConfig({
 	css: ['~/assets/main.css'],
 	postcss: {
 		plugins: {
-			tailwindcss: {},
 			autoprefixer: {},
+			"postcss-nested": {},
 		},
 	},
 })
