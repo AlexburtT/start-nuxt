@@ -6,3 +6,8 @@
 		<img src="~/assets/comp.webp" alt="comp" />
 	</div>
 </template>
+
+<script setup>
+const { $sayHello } = useNuxtApp();
+$sayHello("Aleks");
+</script>
