@@ -32,6 +32,9 @@ export default defineNuxtConfig({
 		// 	mode: "out-in",
 		// },
 	},
+	modules: [
+		'@nuxt/content'
+	],
 	css: ['~/assets/main.css'],
 	postcss: {
 		plugins: {
