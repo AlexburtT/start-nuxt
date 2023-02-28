@@ -17,7 +17,15 @@ export default defineNuxtConfig({
 				},
 				{ name: "color-scheme", content: "light dark" },
 			],
-		}
+		},
+		// pageTransition: {
+		// 	name: "page",
+		// 	mode: "out-in",
+		// },
+		// layoutTransition: {
+		// 	name: "layout",
+		// 	mode: "out-in",
+		// },
 	},
 	css: ['~/assets/main.css'],
 	postcss: {
