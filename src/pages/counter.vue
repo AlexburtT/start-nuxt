@@ -1,5 +1,8 @@
 <script setup>
 const counter = useCounter();
+
+const response = await $fetch('/api/hello');
+console.log(response);
 </script>
 
 <template>
