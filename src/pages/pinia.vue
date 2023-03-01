@@ -1,6 +1,6 @@
 <template>
 	<div>
-		Counter:
+		<p>{{ pending ? "Loading" : services }}</p>
 	</div>
 </template>
 
@@ -8,4 +8,6 @@
 import { useCounterStore } from '../stores/myStore';
 const store = useCounterStore();
 console.log(store);
+
+const { data: services, pending } = await useLazyFetch('/api/services');
 </script>
